@@ -1,64 +1,102 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* ---Topabar  Start--- */
-.topbar{
-    width: 100%;
-    min-height: 100vh;
-    background:linear-gradient(to right,rgba(10, 11, 54, 0.233), rgba(71, 14, 23, 0.322)),url(./images/fitness/banner-5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position:center; */
-    background-attachment: fixed;
-    background-blend-mode:darken;
+.topbar {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(10, 11, 54, 0.233),
+      rgba(71, 14, 23, 0.322)
+    ),
+    url(./images/fitness/banner-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position:center; */
+  background-attachment: fixed;
+  background-blend-mode: darken;
 }
-.topbar ul{
-    margin-left: auto;
-    margin-right: 40px;
+.topbar ul {
+  margin-left: auto;
+  margin-right: 40px;
 }
-.topbar ul li:hover{
-background-color:#4c4747b0;
-padding: 0.2rem;
+.topbar ul li:hover {
+  background-color: #4c4747b0;
+  padding: 0.2rem;
 }
-.topbar ul li a{
-    font-size: 1.2rem!important;
-    color: white!important;
+.topbar ul li a {
+  font-size: 1.2rem !important;
+  color: white !important;
 }
 /* ---Topabar  End--- */
 
-
 /* ---Intro  Start--- */
-.intro{
-    background: rgba(0, 0, 0, 0.863);
-    color: white;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.9);
-    padding-top: 2rem;
-    margin-top: -120px;
-    border-radius: 2px;
+.intro {
+  background: rgba(0, 0, 0, 0.863);
+  color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+  padding-top: 2rem;
+  margin-top: -120px;
+  border-radius: 2px;
 }
-.intro h3{
-    font-weight: bolder;
-    margin-top: 20px;
+.intro h3 {
+  font-weight: bolder;
+  margin-top: 20px;
 }
-.intro p{
-    margin-top:40px ;
+.intro p {
+  margin-top: 40px;
 }
-.intro .btn{
-    background:#0a0e18;
-    color:white;
-    padding: 5px;
-    font-size: 1rem;
-    width:150px;
-    border-radius: 1000px;
+.intro .btn {
+  background: #0a0e18;
+  color: white;
+  padding: 5px;
+  font-size: 1rem;
+  width: 150px;
+  border-radius: 1000px;
+  margin-bottom: 20px;
 }
-.intro .btn:hover{
-    color: white;
-    background:#31020fd0;
+.intro .btn:hover {
+  color: white;
+  background: #31020fd0;
+  transition: all 1s linear;
 }
 
 /* ---Intro  End--- */
+
+/* ---Exercise Start--- */
+.exercise {
+  margin-top: 100px;
+}
+/* --R-w-1 */
+.exercise img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+.exercise .row .col-style {
+  padding-left: 50px;
+}
+.exercise .row .col-style h3 {
+  font-weight: bolder;
+  margin-bottom: 100px;
+}
+
+/* --Row -2-- */
+.exercise .row .video {
+  padding-left: 50px;
+}
+@media all and (max-width: 600px) {
+  .exercise .row .col-style-2 {
+    padding-left: 50px;
+  }
+  .exercise .row .video {
+    padding: 0px;
+  }
+}
+/* ---Exercise End--- */
