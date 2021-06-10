@@ -202,3 +202,121 @@ body {
   }
 }
 /* --Schedule End--- */
+
+/* ---Search Start--- */
+.search {
+  background: rgba(0, 0, 0, 0.863);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+  padding: 20px 20px;
+  margin-bottom: -155px;
+}
+.search h3 {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.search p {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.input-group input {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 1000px;
+}
+.input-group span {
+  cursor: pointer;
+  border-radius: 1000px;
+  background-color: maroon;
+  border: none !important;
+  color: white;
+  text-align: center;
+}
+
+/* ---Search End--- */
+
+/* ---Footer Start--- */
+.footer {
+  margin-top: 50px;
+  background: #ebe6e6b0;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer .card {
+  border: none;
+  background: none;
+  text-align: justify;
+  font-size: 13px;
+  color: #0057faea;
+}
+.footer .card img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.footer li {
+  list-style-type: none;
+  margin: 20px 0px;
+  font-size: 13px;
+  color: #0057faea;
+}
+.footer li a {
+  text-decoration: none;
+}
+.footer li span {
+  margin-left: 10px;
+}
+.footer li a {
+  margin-left: 10px;
+}
+.footer .feature h6 {
+  text-align: left;
+  color: #095df8;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.footer .feature li {
+  list-style-type: none;
+  margin: 16px 0px;
+  font-size: 13px;
+  color: #0057faea;
+}
+.footer .contact h6 {
+  text-align: left;
+  color: #095df8;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.footer .contact li {
+  margin: 16px 0px;
+}
+.footer .social h6 {
+  text-align: left;
+  color: #095df8;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.footer .social li {
+  margin: 16px 0px;
+}
+@media all and (max-width: 600px) {
+  .footer .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .feature li {
+    margin: 22px 0px;
+  }
+  .footer .social li {
+    margin: 21px 0px;
+  }
+}
+/* ---Footer End--- */
