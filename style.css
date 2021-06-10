@@ -146,3 +146,59 @@ body {
   }
 }
 /* --Exercise type End--- */
+
+/* --Schedule Start--- */
+.schedule {
+  margin-top: 50px;
+  background: linear-gradient(
+      to right,
+      rgba(3, 3, 19, 0.739),
+      rgba(24, 3, 6, 0.897)
+    ),
+    url(./images/fitness/banner-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 10px;
+  background-blend-mode: darken;
+}
+.schedule img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.schedule i {
+  color: rgba(255, 255, 255, 0.383);
+  width: 100%;
+  font-size: 40px;
+  margin-top: 12px;
+}
+.schedule-content {
+  margin-left: -40px;
+}
+.schedule h5 {
+  color: #ffffffc7;
+  margin-bottom: 15px;
+}
+.schedule p {
+  color: #c7bcbced;
+  text-align: justify;
+}
+@media all and (max-width: 600px) {
+  .schedule .fa-heartbeat {
+    margin-bottom: 45px;
+  }
+  .schedule i {
+    text-align: center;
+  }
+  .schedule-content {
+    margin-left: 0px;
+    text-align: justify;
+  }
+  .schedule h5 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+/* --Schedule End--- */
